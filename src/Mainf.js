@@ -40,8 +40,8 @@ const hendlemode=()=>{
   <>  <section style={{backgroundColor}}>
     <div className='container' >{itemList} </div>
     
-  <button onClick={hendlemode} className="mbtn" style={{backgroundColor,color:textColor,border:`2px solid ${textColor}`}}>
-   {backgroundColor==="white"?"Light-Mode":"Dark-Mode"}</button>
+  <button onClick={hendlemode} className="mbtn" style={{backgroundColor:textColor,color:backgroundColor,border:`2px solid ${textColor}`}}>
+   {backgroundColor==="white"?"Dark-Mode":"Light-Mode"}</button>
   </section>
   </>
     
